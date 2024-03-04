@@ -1,0 +1,34 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(night-sky.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+}
+
+.box {
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    transition: transform 0.4 ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
